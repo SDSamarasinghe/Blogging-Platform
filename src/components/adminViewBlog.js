@@ -3,7 +3,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import "./Admins.css";
 
-const adminViewBlog = () => {
+const AdminViewBlog = () => {
   const [adsr, setAdsr] = useState(undefined);
 
   useEffect(() => {
@@ -73,10 +73,10 @@ const adminViewBlog = () => {
       <button className="btn btn-success">
         {" "}
         <Link
-          to="/Home"
+          to="/blogAdd"
           style={{ extDecoration: "none", color: "white" }}
         >
-          Create New Advertisment
+          Create New Blog
         </Link>
         <br />
       </button>
@@ -84,4 +84,4 @@ const adminViewBlog = () => {
     </div>
   );
 };
-export default adminViewBlog;
+export default AdminViewBlog;

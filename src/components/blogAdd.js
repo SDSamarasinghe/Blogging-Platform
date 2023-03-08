@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import swal from "sweetalert";
 
-const AdvertiserForm = () => {
+const BlogAdd = () => {
   const [listOfAds, setListOfAdvertisement] = useState([]);
   const [type, setType] = useState("Something else here");
   const [message, setmessage] = useState("");
@@ -257,4 +257,4 @@ const AdvertiserForm = () => {
   );
 };
 
-export default AdvertiserForm;
+export default BlogAdd;
