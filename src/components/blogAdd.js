@@ -45,7 +45,7 @@ const AdvertiserForm = () => {
 
   const createAd = () => {
     axios
-      .post("http://localhost:8000/api/Ads/", {
+      .post("http://localhost:8000/api/Blogger/", {
         type,
         message,
         Publish_Date,
